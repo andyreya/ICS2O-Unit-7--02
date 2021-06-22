@@ -1,6 +1,6 @@
 /* connects the check 'button' to the comparisn function */
-document.getElementById('button').addEventListener('click',comparisn)
-let userInput = 0 
+document.getElementById('button').addEventListener('click', comparisn)
+let userInput = 0
 
 function comparisn () {
   /* get user input and convert it to an integer */
@@ -9,8 +9,8 @@ function comparisn () {
 
   /* check if input is less than 0 */
   if (userInput < 0) {
-    document.getElementById('answer').innerHTML = "Negative"
+    document.getElementById('answer').innerHTML = 'Negative'
   } else {
-    document.getElementById('answer').innerHTML = "Positive"
+    document.getElementById('answer').innerHTML = 'Positive'
   }
 }
