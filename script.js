@@ -1,8 +1,8 @@
-/* connects the check 'button' to the comparisn function */
-document.getElementById('button').addEventListener('click', comparisn)
+/* connects the check 'button' to the comparison function */
+document.getElementById('button').addEventListener('click', comparison)
 let userInput = 0
 
-function comparisn () {
+function comparison () {
   /* get user input and convert it to an integer */
   userInput = document.getElementById('input').value
   userInput = parseInt(userInput)
